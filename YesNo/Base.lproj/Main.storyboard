@@ -26,7 +26,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7LZ-G9-6zD">
-                                <rect key="frame" x="194.5" y="706.5" width="119.5" height="35.5"/>
+                                <rect key="frame" x="147.5" y="750.5" width="119.5" height="35.5"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -41,14 +41,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Eat-bT-Nvb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5Tl-eF-7eY"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7LZ-G9-6zD" secondAttribute="bottom" constant="120" id="7Dg-2i-4r1"/>
+                            <constraint firstItem="Eat-bT-Nvb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5Tl-eF-7eY"/>
                             <constraint firstAttribute="bottom" secondItem="Eat-bT-Nvb" secondAttribute="bottom" id="BxK-8N-Hxr"/>
+                            <constraint firstItem="7LZ-G9-6zD" firstAttribute="bottom" secondItem="Eat-bT-Nvb" secondAttribute="bottom" constant="-110" id="O8u-hU-PSk"/>
                             <constraint firstItem="Eat-bT-Nvb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="RaK-lk-NOq"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Eat-bT-Nvb" secondAttribute="trailing" id="Rxy-va-XjK"/>
+                            <constraint firstAttribute="trailing" secondItem="Eat-bT-Nvb" secondAttribute="trailing" id="Rxy-va-XjK"/>
                             <constraint firstItem="ufq-Va-G2g" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="eG8-tr-rIx"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7LZ-G9-6zD" secondAttribute="trailing" constant="100" id="hAR-he-zhA"/>
                             <constraint firstItem="ufq-Va-G2g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rRZ-2v-B7x"/>
+                            <constraint firstItem="7LZ-G9-6zD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wEi-ZI-dmZ"/>
                         </constraints>
                     </view>
                     <connections>
